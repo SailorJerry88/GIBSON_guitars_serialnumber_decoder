@@ -1,8 +1,16 @@
 package DatingGuitars;
 
+import java.util.Scanner;
+
 public class MainClazz {
 
     public static void main(String[] args) {
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What is your Gibson guitar serial number?");
+
+
 
         GibsonLesPaul Goldtop = new GibsonLesPaul ("Goldie", 5, 2, 6, 9,
                 4, 1, 4, 6);

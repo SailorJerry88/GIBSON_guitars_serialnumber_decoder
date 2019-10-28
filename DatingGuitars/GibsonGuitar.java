@@ -1,12 +1,12 @@
 package DatingGuitars;
 
-public class GibsonLesPaul {
+public abstract class GibsonGuitar {
 
     public String name;
     private int serial1, serial2, serial3, serial4, serial5, serial6, serial7, serial8;
 
 
-    public GibsonLesPaul(String name, int serial1, int serial2, int serial3, int serial4, int serial5, int serial6,
+    public GibsonGuitar(String name, int serial1, int serial2, int serial3, int serial4, int serial5, int serial6,
                          int serial7, int serial8){
         this.name = name;
         this.serial1 = serial1; // Year
