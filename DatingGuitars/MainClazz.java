@@ -9,13 +9,18 @@ public class MainClazz {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("What is your Gibson guitar serial number?");
+        String Name = scanner.nextLine();
+
+        System.out.println("Sprawdzam dla " + Name);
 
 
 
-        GibsonLesPaul Goldtop = new GibsonLesPaul ("Goldie", 5, 2, 6, 9,
-                4, 1, 4, 6);
+
+        GibsonGuitar Goldtop = new GibsonGuitar("Goldie", 5, 2, 6, 9,
+                4, 1, 4, 6) {
+        };
         // LesPaul Serial 52694146
-        GibsonLesPaul2 Burst = new GibsonLesPaul2("Burst",6,2,3,7,
+        UserGibsonGuitar Burst = new UserGibsonGuitar("Burst",6,2,3,7,
                 9,2, 3,9);
         // LesPaul Serial 62379239
 
